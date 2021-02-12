@@ -1,0 +1,89 @@
+
+.grid-container {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.grid-item {
+    position: relative;
+}
+
+p {
+    margin-top: 120px;
+}
+
+#poke-name {
+    align-content: center;
+    margin-top: 20px;
+    z-index: 10;
+}
+
+#poke-photo {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+}
+
+#pokedex {
+    width: 950px;
+    float: right;
+}
+
+.sprite {
+    border: 3px solid black;
+    border-radius: 5%;
+    width: 300px;
+    height: 199px;
+    margin-top: 206px;
+    margin-left: 83px;
+    background-color: dimgrey;
+    position: absolute;
+    z-index: 10;
+    color: whitesmoke;
+}
+
+.moves {
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: firebrick;
+    box-shadow: inset 0 0 3px 2px black;
+    position: absolute;
+    z-index: 10;
+    width: 380px;
+    height: 255px;
+    margin-left: 532px;
+    margin-top: 195px;
+    color: whitesmoke;
+    font-size: 32px;
+    text-align: center;
+}
+
+.evoluti {
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: firebrick;
+    box-shadow: inset 0 0 3px 2px black;
+    position: absolute;
+    z-index: 10;
+    width: 380px;
+    height: 185px;
+    margin-left: 532px;
+    margin-top: 460px;
+    color: whitesmoke;
+}
+
+.poke_id {
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: forestgreen;
+    position: absolute;
+    z-index: 10;
+    width: 180px;
+    height: 80px;
+    margin-left: 92px;
+    margin-top: 564px;
+    color: black;
+}
